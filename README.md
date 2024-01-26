@@ -54,6 +54,8 @@ pip show ultralytics
 ```
 
 **We have to downgrade the torch and tourchvision packages to avoid errors**
+
+ - [Pytorch Site][def2]
 - First uninstall torch by
 
 ```
@@ -72,3 +74,22 @@ pip install torchvision 1.11
 ```
 
 - *This process will analyze the images using YOLV8 in CPU and not GPU*
+
+- To test the code, i am using VS code.
+## Installing VS code
+[check this online.][def]
+- CLTR + SHIFT + P select compiler.
+
+- then run the code below.
+
+
+- Future Challage
+
+- Try live feed on your camera,
+-Do object counting, 
+- The code is provided in this repositoty.
+
+
+
+[def]: https://jetsonhacks.com/2019/10/01/jetson-nano-visual-studio-code-python/
+[def2]: https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
