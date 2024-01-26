@@ -36,3 +36,10 @@ Once the compilation is complete, you can install Python by running the followin
 	sudo make altinstall
 	python3.8 --version
 ```
+
+- Now come out from python3.8 folder and create a separate environment using python 3.8
+
+```
+python3.8 -m venv myenv                                                
+source myenv/bin/activate
+```
