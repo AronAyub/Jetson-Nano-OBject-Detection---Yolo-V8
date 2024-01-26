@@ -43,3 +43,32 @@ Once the compilation is complete, you can install Python by running the followin
 python3.8 -m venv myenv                                                
 source myenv/bin/activate
 ```
+## Installing Ultralytics
+
+```
+pip install ultralytics
+```
+- show ultralytics version
+```
+pip show ultralytics
+```
+
+**We have to downgrade the torch and tourchvision packages to avoid errors**
+- First uninstall torch by
+
+```
+pip uninstall  torch
+#then install this version
+pip install torch==1.11
+```
+- Uninstall the current torchvision by
+```
+pip unistall torchvision
+```
+- Install the right torchvision
+
+```
+pip install torchvision 1.11
+```
+
+- *This process will analyze the images using YOLV8 in CPU and not GPU*
