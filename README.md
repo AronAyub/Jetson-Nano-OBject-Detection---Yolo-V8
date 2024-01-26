@@ -76,12 +76,29 @@ pip install torchvision 1.11
 - *This process will analyze the images using YOLV8 in CPU and not GPU*
 
 - To test the code, i am using VS code.
+
 ## Installing VS code
 [check this online.][def]
 - CLTR + SHIFT + P select compiler.
 
 - then run the code below.
 
+### For images
+
+```
+rom ultralytics import YOLO
+model = YOLO("yolov8.pt")
+results = model("directory/image.jpg", save = True)
+
+```
+
+### For the vide
+
+```
+from ultralytics import YOLO
+model = YOLO("yolov8.pt")
+results = model("directory/video.mp4", save =True)
+```
 
 - Future Challage
 
