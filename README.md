@@ -92,7 +92,7 @@ results = model("directory/image.jpg", save = True)
 
 ```
 
-### For the vide
+### For the video
 
 ```
 from ultralytics import YOLO
